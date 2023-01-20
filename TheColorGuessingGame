@@ -1,0 +1,32 @@
+
+print(" Welome to the Color Guessing Game:   ")
+
+color = "white"
+
+Player_Color = str(input(" Please predict from the basis color:  "))
+
+chance = 2
+
+while True:
+    if chance !=0:
+
+        if Player_Color != color:
+            chance -= 1
+            print(" You have {} chance left.".format(chance))
+            Player_Color = str(input(" Predict from the basis color and please be more careful:   "))
+
+        elif Player_Color != color:
+            chance -= 1
+            print(" You have {} chance left".format(chance))
+            Player_Color = str(input("  Please predict from the basis color:  "))
+
+        elif (chance == 0) and (Player_Color != color):
+            print("Game Ower!")
+            break
+
+        if Player_Color == color:
+            print("Congrats, you're awesome!")
+            break
+    if chance ==0:
+        print("Game Ower")
+        break
