@@ -1,7 +1,7 @@
 """
 We can guess the meaning of "for" and "while" from the English Grammar lessons.
 Actually, these are same in the Python programming language too.
-
+"""
 Easy level example:
 
 list = [["a","b"], ["p","21"], ["17","27"], ["U","Y"], ["13","8"]]
@@ -37,4 +37,4 @@ for number in range(1,6):
  > 1
    3
    5
-"""
+
