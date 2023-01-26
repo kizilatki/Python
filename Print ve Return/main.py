@@ -28,7 +28,7 @@ print(t)
 print("----------)
 
 >> PythonProgrammingLanguage
->> ----------
+   ----------
 
 def big_number(x,y):
     if x>y:
