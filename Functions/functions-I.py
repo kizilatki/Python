@@ -1,7 +1,7 @@
 """
 It doesn't make sense to repeat the same work over and over.
 
-We can automate a repeated actions and call it that we need.
+We can automate a repeated actions and call it when we need.
 
 Function provides this exactly.
 
