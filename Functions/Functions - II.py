@@ -32,7 +32,7 @@ def multi(*args):           # when have use flexible arguments
     for number in args:
         result = result * number
 
-    print(result)
+    print(result) 
 
 multi(2,3,4,5)
 >> 120
