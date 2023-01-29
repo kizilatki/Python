@@ -1,5 +1,5 @@
 class Flying():
-    company = "THY"
+    company = "British Airways"
 
     def __init__(self, code, start, arrival, time, capacity, passenger):
         self.code = code
