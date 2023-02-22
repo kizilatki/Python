@@ -18,6 +18,7 @@ class Flying():
 
     def update_capacity(self):
         return self.capacity - self.passenger
+    
 
     def ticket_sale(self, ticket_amount=1):
         if self.passenger + ticket_amount <= self.capacity:  # Bütün özellikleri if kümesine atadım.
